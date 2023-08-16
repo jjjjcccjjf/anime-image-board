@@ -1,5 +1,6 @@
 import Image from "next/image";
 import GridItemTest from "./components/GridItemTest";
+import Cookie from "./components/Cookie";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="row-span-2 bg-green-100 ">content</div>
 
       <GridItemTest></GridItemTest>
+      <Cookie></Cookie>
     </main>
   );
 }
