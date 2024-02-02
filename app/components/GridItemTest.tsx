@@ -13,7 +13,7 @@ export default function GridItemTest() {
 
   useEffect(() => {
     let apiUrl =
-      "https://api.nekosapi.com/v2/images?page[limit]=25&page[offset]=0&filter[ageRating.iexact]=sfw";
+      "https://api.nekosapi.com/v2/images?page[limit]=25&page[offset]=0&filter[ageRating.iexact]=sfw&filter[ageRating.isnull]=false&filter[title.icontains]=girl&";
 
     apiUrl = apiUrl + (token ? "&token=" + token : "");
 
